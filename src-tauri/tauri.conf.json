@@ -21,16 +21,18 @@
         "close": true,
         "hide": true,
         "show": true,
-        "startDragging": true
+        "startDragging": true,
+        "setAlwaysOnTop": true
       }
     },
     
     "windows": [
       {
         "decorations": false,
-        "height": 50,
+        "height": 40,
         "width": 200,
-        "transparent": true
+        "transparent": true,
+        "resizable": false
 
       }
     ],
@@ -40,7 +42,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "com.cn.timer",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
